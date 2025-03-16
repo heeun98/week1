@@ -11,7 +11,7 @@ public class Student {
   private int age;
 
   public static void main(String[] args) {
-    Student student1 = new Student("박희운", 28);
+    Student student1 = new Student("박희운", 14);
     System.out.println("이름: " + student1.getName() + ", 나이: " + student1.getAge());
   }
 }
