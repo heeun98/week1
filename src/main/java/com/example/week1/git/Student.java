@@ -13,10 +13,5 @@ public class Student {
   public static void main(String[] args) {
     Student student1 = new Student("김보겸", 28);
     System.out.println("이름: " + student1.getName() + ", 나이: " + student1.getAge());
-
-
-    for (String arg : args) {
-      System.out.println("1");
-    }
   }
 }
